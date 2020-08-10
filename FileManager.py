@@ -167,8 +167,8 @@ class FileManager(QMainWindow,ui):
 
     def GenerateFiles(self,index, text):
         if text == "Home":
-            dir_path = "::{20D04FE0-3AEA-1069-A2D8-08002B30309D}"
-            self.home=["::{20D04FE0-3AEA-1069-A2D8-08002B30309D}"]
+            dir_path = "This Pc path"
+            self.home=["This Pc path"]
         elif text == "Recycle Bin":
             dir_path = "C:\Windows\Temp"
             self.recycle = ["C:\Windows\Temp"]
